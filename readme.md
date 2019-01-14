@@ -26,7 +26,9 @@ DB_PASSWORD=root
 我們看到，DB_DATABASE一行，我們填入該環境下數據庫名稱，DB_USERNAME及DB_PASSWORD一行，我們分別填入管理該數據庫的用戶名和密碼。
 
 - 好了，現在我們保存文件。如果你有數據庫遷移文件（migration），那麼現在可以運行重建資料庫<br>
-php artisan migrate<br>
+執行下面指令，讓他跑migrate然後同時跑seed
+
+php artisan migrate:fresh --seed<br>
 php artisan serve<br>
 #####您現在可以在localhost：8000訪問您的項目:)
 
