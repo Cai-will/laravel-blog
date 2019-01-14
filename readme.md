@@ -5,9 +5,9 @@
 <h3>clone並還原專案</h3>
 
 - 先切換到要放專案的資料夾，然後從終端機執行：<br>
-git clone https://github.com/Cai-will/laravel-shop laravel-shop 
-- Copy下來後，進入laravel-shop 目錄，然後讓composer重建相關套件，此時會重建vendor目裡的內容<br>
-cd laravel-shop<br>
+git clone https://github.com/Cai-will/laravel-blog laravel-blog
+- Copy下來後，進入laravel-blog 目錄，然後讓composer重建相關套件，此時會重建vendor目裡的內容<br>
+cd laravel-blog<br>
 composer install
 - 最後要還原.env設定檔，必須先把一個範例檔複製成.env，然後利用產生器來產生APP KEY，重點還有資料庫的名稱及帳號密碼設定一定要正確。<br>
 cp .env.example .env <br>
